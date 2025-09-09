@@ -1,0 +1,23 @@
+{
+  "name": "proyecto-api-screenplay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+"scripts": {
+  "test": "cucumber-js --require-module ts-node/register --require features/**/*.ts --require screenplay/**/*.ts --require support/**/*.ts -f json:reports/report.json",
+  "report": "node ./generate-report.js"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.2.0",
+    "@serenity-js/assertions": "^3.34.1",
+    "@serenity-js/core": "^3.34.1",
+    "@serenity-js/cucumber": "^3.34.1",
+    "@serenity-js/rest": "^3.34.1",
+    "multiple-cucumber-html-reporter": "^3.9.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}

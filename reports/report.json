@@ -1,0 +1,55 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "consulta-de-guía;consultar-guía-por-defecto",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Consultar guía por defecto",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "consulto la guía",
+            "match": {
+              "location": "file:\\C:\\Users\\cesar\\Documents\\proyecto-api-screenplay\\features\\consulta_guia.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1223675100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "veo la información de mi guía",
+            "match": {
+              "location": "file:\\C:\\Users\\cesar\\Documents\\proyecto-api-screenplay\\features\\consulta_guia.steps.ts:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 124638600
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@guia_defecto",
+            "line": 9
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "consulta-de-guía",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Consulta de guía",
+    "tags": [],
+    "uri": "features\\consulta_guia.feature"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "default": {
+    "require": [
+      "features/**/*.ts",
+      "support/**/*.ts"
+    ],
+    "publishQuiet": true
+  }
+}
