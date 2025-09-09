@@ -1,13 +1,13 @@
-Nombre: Cesar De La Hoz
+# Nombre: Cesar De La Hoz
 
-Proyecto - Automatizacion coordinadora
-Proyecto de Pruebas Automatizadas con Serenity/Playwright
+# Proyecto - Automatizacion coordinadora
+# Proyecto de Pruebas Automatizadas con Serenity/Playwright
 
-Instalacion Playwright
+## Instalacion Playwright
 npm init playwright@latest
 npm install
 
- Instalar paquetes específicos
+ ## Instalar paquetes específicos
 npm install --save-dev \
   @cucumber/cucumber \
   @serenity-js/core \
@@ -18,12 +18,11 @@ npm install --save-dev \
 
 npm install multiple-cucumber-html-reporter --save-dev
 
-Ejecutar todas las pruebas
-#Crear guias multiple escenarios
+### Crear guias multiple escenarios
 npm @solo_crear
 
-#consultar guias creadas
+### consultar guias creadas
 npm guia_creada 
 
-#generar reporte html
+### generar reporte html
 npm run report
